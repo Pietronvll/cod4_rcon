@@ -10,7 +10,7 @@ Iscriversi a [fshost.me](http://fshost.me). Una volta iscritti creare nuovo serv
     4. _Version_: 1.7
     5. _Cracked_: Yes
 3. Una volta creato il server avrete la stringa di connessione **connect xx.xx.xx.xx:xxxx; password xxxx**
-**
+
 4. Per caricare le impostazioni, scaricate il pacchetto Python in questo sito ed avviatelo con _python app.py_
     1. Vi verrà richiesto l'indirizzo del server, inserite la parte subito dopo 'connect': **xx.xx.xx.xx:xxxx**
     2. Vi verrà chiesta la password _rcon_: prendetela da fshost.me è sulla destra nel riquadro _PASSWORDS_
