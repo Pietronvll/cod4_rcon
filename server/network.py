@@ -1,4 +1,6 @@
 import socket
+
+_DEV = False
 class cod4server:
     def __init__(self,address, port, rcon_pw):
         self.UDP_Client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)       
@@ -19,14 +21,18 @@ class cod4server:
                     data += out_message.decode('utf-8', 'ignore')
                 except socket.timeout:
                     incomplete_data = False
-            print(f'{self.address[0]}:{self.address[1]} ~ \n {data[6:]}')
+            if _DEV:
+                print(f'{self.address[0]}:{self.address[1]} ~ \n {data[6:]}')
         except Exception as e:
             print(e)
     def execute(self, fname):
         path = "configs/" + fname[0] + "." + fname[1]
         f = open(path, "r")
         commands = f.read().splitlines() 
-        for cmd in commands:
+
+        for idx, cmd in enumerate(commands):
+            if not _DEV:
+                print(f"\rInjecting commands [{idx + 1}/{len(commands)}]", end='')
             self.send_message(cmd)
 
     @property

@@ -5,7 +5,7 @@ sv_voicequality 9
 scr_team_fftype 1
 scr_game_allowkillcam 0
 set scr_sab_playerrespawndelay 4
-set scr_sab_scorelimit 8
+set scr_sab_scorelimit 3
 set scr_sab_roundlimit 3 
 set scr_sab_timelimit 0
-map_restart
+map mp_crash

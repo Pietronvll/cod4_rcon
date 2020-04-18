@@ -1,4 +1,4 @@
-g_gametype sab
+g_gametype dm
 set scr_hardcore 1
 sv_voice 1
 sv_voicequality 9

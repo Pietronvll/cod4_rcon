@@ -1,0 +1,11 @@
+g_gametype dm
+set scr_hardcore 1
+sv_voice 1
+sv_voicequality 9
+scr_team_fftype 1
+scr_game_allowkillcam 0
+scr_war_playerrespawndelay 1
+scr_war_roundlimit 1000
+scr_war_scorelimit 1000
+scr_war_timelimit 0
+map mp_bog
