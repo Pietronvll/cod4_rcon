@@ -1,7 +1,5 @@
-g_gametype dm
+g_gametype war
 set scr_hardcore 1
-sv_voice 1
-sv_voicequality 9
 scr_team_fftype 1
 scr_game_allowkillcam 0
 scr_war_playerrespawndelay 1

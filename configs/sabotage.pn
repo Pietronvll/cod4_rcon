@@ -1,7 +1,5 @@
 g_gametype sab
 set scr_hardcore 1
-sv_voice 1
-sv_voicequality 9
 scr_team_fftype 1
 scr_game_allowkillcam 0
 set scr_sab_playerrespawndelay 4
